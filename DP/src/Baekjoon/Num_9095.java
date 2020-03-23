@@ -1,6 +1,9 @@
 package Baekjoon;
+
 import java.io.*;
+
 public class Num_9095 {
+
 	public static int count(int n) {
 
 		int[] ar = new int[n + 1];
