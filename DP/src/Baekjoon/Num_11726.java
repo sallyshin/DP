@@ -27,7 +27,7 @@ public class Num_11726 {
 		
 		int n = Integer.parseInt(br.readLine());
 
-		bw.write(String.valueOf("\n" + tile(n)));
+		bw.write(String.valueOf(tile(n)));
 		bw.flush();
 		bw.close();
 
