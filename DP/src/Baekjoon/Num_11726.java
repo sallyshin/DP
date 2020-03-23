@@ -13,7 +13,7 @@ public class Num_11726 {
 		for(int i = 3; i < n+1; i++) {
 			if(ar[i] > 0) return ar[i];
 			else {
-				ar[i] = (ar[i-1]+ ar[i-2]) % 10007;
+				ar[i] = (ar[i-1]+ ar[i-2]) % 10007; // 오버플로우 방지
 			}
 		}
 		
