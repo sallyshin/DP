@@ -1,35 +1,26 @@
 package Baekjoon;
-import java.io.*;
-
+import java.util.*;
 public class Num_1149 {
-	
+
 	public static void main(String[] args) throws Exception {
 
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-		
-		int n = Integer.parseInt(br.readLine());
-		int total = 0;
-		int min = 0;
-		
-		int[][] arr = new int[n+1][3];
-		
-		for(int i = 1; i <= 3; i++) {
-			
-			
+		Scanner sc = new Scanner(System.in);
 
-		}
-		
-		for(int i = 0; i < 3; i++) {
-			for(int j = 0; j < n+1; j++) {
+		int n = sc.nextInt();
+		int[][] ar = new int[n+1][3];
+		int[][] p = new int[n+1][3];
+
+		for(int i = 1; i < n+1; i++) {
+
+			for(int j = 0; j < 3; j++) {
 				
-				
+				ar[i][j] = sc.nextInt();
+
 			}
+			sc.nextLine();
 		}
 		
-		bw.write(String.valueOf(total));
-		bw.flush();
-		bw.close();
+		
 	}
 
 }
