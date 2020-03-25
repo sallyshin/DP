@@ -3,9 +3,9 @@ import java.io.*;;
 
 public class Num_11726 {
 	
+	static int[] ar = new int[1001];
+	
 	public static int tile(int n) {
-		
-		int[] ar = new int[n+1];
 		
 		ar[1] = 1;
 		ar[2] = 2;
